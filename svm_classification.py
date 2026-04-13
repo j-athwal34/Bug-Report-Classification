@@ -73,7 +73,7 @@ def clean_str(string):
 ########## 3. Download & read data ##########
 
 # Choose the project (options: 'pytorch', 'tensorflow', 'keras', 'incubator-mxnet', 'caffe')
-project = 'caffe'
+project = 'tensorflow'
 path = f'datasets/{project}.csv'
 
 if not os.path.exists(path):
